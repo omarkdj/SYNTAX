@@ -14,13 +14,10 @@ public class Test01 {
 			grade='F';
 		}return grade;
 	}
-	
-	
-			public static void main(String[]args) {
+    public static void main(String[]args) {
 				
-				
-				Test01 obj =new Test01();
+     Test01 obj =new Test01();
 	 char grade=obj.mark(75);
 	 System.out.println(grade);
-}
+	}
 }
